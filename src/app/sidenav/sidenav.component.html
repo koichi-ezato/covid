@@ -1,0 +1,18 @@
+<mat-sidenav-container class="viewer-sidenav-container">
+  <mat-sidenav #sidenav class="viewer-sidenav" tabindex="-1" [mode]="mode" [opened]="opened" style="transform: translate3d(0px, 0px, 0px);">
+    <nav>
+      <ul>
+        <li>
+          <a routerLink="/japan" routerLinkActive="active"><mat-icon>dashboard</mat-icon> 日本</a>
+        </li>
+      </ul>
+    </nav>
+  </mat-sidenav>
+  <div cdk-scrollable>
+    <div class="sidenav-content">
+      <app-page-header></app-page-header>
+      <router-outlet></router-outlet>
+      <app-footer></app-footer>
+    </div>
+  </div>
+</mat-sidenav-container>

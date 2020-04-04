@@ -1,0 +1,19 @@
+.icon {
+  padding: 0 14px;
+}
+.spacer {
+  flex: 1 1 auto;
+}
+@media (max-width: 720px) {
+  .navbar-hide-small {
+    display: none;
+  }
+  .navbar-show-small {
+    display: block;
+  }
+  .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}

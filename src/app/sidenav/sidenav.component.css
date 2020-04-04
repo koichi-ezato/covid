@@ -1,0 +1,6 @@
+nav ul li a mat-icon {
+  vertical-align: middle;
+}
+nav h3 mat-icon, nav h2 mat-icon {
+  vertical-align: middle;
+}
