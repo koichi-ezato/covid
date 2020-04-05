@@ -1,0 +1,80 @@
+{
+  "configVersion": 1,
+  "timestamp": 1586080338085,
+  "index": "https://koichi-ezato.github.io/covid/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://koichi-ezato.github.io/covid/favicon.ico",
+        "https://koichi-ezato.github.io/covid/index.html",
+        "https://koichi-ezato.github.io/covid/main-es2015.addd99033c82874ed701.js",
+        "https://koichi-ezato.github.io/covid/main-es5.addd99033c82874ed701.js",
+        "https://koichi-ezato.github.io/covid/manifest.webmanifest",
+        "https://koichi-ezato.github.io/covid/polyfills-es2015.bbb42ff2e1c488ff52d5.js",
+        "https://koichi-ezato.github.io/covid/polyfills-es5.0e4e1968447fab48e788.js",
+        "https://koichi-ezato.github.io/covid/runtime-es2015.c9afb3256f2870e161de.js",
+        "https://koichi-ezato.github.io/covid/runtime-es5.c9afb3256f2870e161de.js",
+        "https://koichi-ezato.github.io/covid/styles.92cdfbaccd7f039da31f.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://koichi-ezato.github.io/covid/assets/icons/icon-128x128.png",
+        "https://koichi-ezato.github.io/covid/assets/icons/icon-144x144.png",
+        "https://koichi-ezato.github.io/covid/assets/icons/icon-152x152.png",
+        "https://koichi-ezato.github.io/covid/assets/icons/icon-192x192.png",
+        "https://koichi-ezato.github.io/covid/assets/icons/icon-384x384.png",
+        "https://koichi-ezato.github.io/covid/assets/icons/icon-512x512.png",
+        "https://koichi-ezato.github.io/covid/assets/icons/icon-72x72.png",
+        "https://koichi-ezato.github.io/covid/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://koichi-ezato.github.io/covid/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://koichi-ezato.github.io/covid/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://koichi-ezato.github.io/covid/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://koichi-ezato.github.io/covid/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://koichi-ezato.github.io/covid/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://koichi-ezato.github.io/covid/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://koichi-ezato.github.io/covid/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://koichi-ezato.github.io/covid/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://koichi-ezato.github.io/covid/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://koichi-ezato.github.io/covid/index.html": "41aab3147730909c312521f47f197b19de658a2e",
+    "https://koichi-ezato.github.io/covid/main-es2015.addd99033c82874ed701.js": "a2751a54fea06b69996db6e57599a47971ec8966",
+    "https://koichi-ezato.github.io/covid/main-es5.addd99033c82874ed701.js": "64b63fa23594f4426f7926bc529197267cc96b66",
+    "https://koichi-ezato.github.io/covid/manifest.webmanifest": "c738f87ed319b6cffa6634c45b1b53c723464bc1",
+    "https://koichi-ezato.github.io/covid/polyfills-es2015.bbb42ff2e1c488ff52d5.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
+    "https://koichi-ezato.github.io/covid/polyfills-es5.0e4e1968447fab48e788.js": "e51a1de4f016cd689dbdbef51043dec9518c4111",
+    "https://koichi-ezato.github.io/covid/runtime-es2015.c9afb3256f2870e161de.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://koichi-ezato.github.io/covid/runtime-es5.c9afb3256f2870e161de.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://koichi-ezato.github.io/covid/styles.92cdfbaccd7f039da31f.css": "1141d6e4419bfc42d43bce1474a7f7fbf963105d"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
