@@ -5,7 +5,7 @@ import {HttpClient, HttpHeaders} from '@angular/common/http';
   providedIn: 'root'
 })
 export class ApiService {
-  public url = 'https://wuhan-coronavirus-api.laeyoung.endpoint.ainize.ai/jhu-edu/timeseries';
+  public url = 'https://master-covid-19-api-laeyoung.endpoint.ainize.ai/jhu-edu/';
   public headers = new HttpHeaders();
 
   constructor(
@@ -15,7 +15,7 @@ export class ApiService {
   public getList(): Promise<any> {
     return this.http.get(this.url)
       .toPromise()
-      .then(response => response[0].timeseries)
+      .then(response => Promise.resolve(response))
       .catch(err => Promise.reject(err.error));
   }
 }

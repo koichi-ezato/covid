@@ -51,13 +51,14 @@ export class JapanComponent implements OnInit {
     this.japanService = new JapanService(this.http);
     this.japanService.getList()
       .then(response => {
-        Object.keys(response).forEach(key => {
+        const data  = response[0].timeseries;
+        Object.keys(data).forEach(key => {
           const d = key.split('/');
-          this.data[0].series.push({value: response[key].confirmed,
+          this.data[0].series.push({value: data[key].confirmed,
             name: Moment('20' + d[2] + '/' + d[0] + '/' + d[1]).format('YYYY年MM月DD日')});
-          this.data[1].series.push({value: response[key].deaths,
+          this.data[1].series.push({value: data[key].deaths,
             name: Moment('20' + d[2] + '/' + d[0] + '/' + d[1]).format('YYYY年MM月DD日')});
-          this.data[2].series.push({value: response[key].recovered,
+          this.data[2].series.push({value: data[key].recovered,
             name: Moment('20' + d[2] + '/' + d[0] + '/' + d[1]).format('YYYY年MM月DD日')});
         });
         this.data = [...this.data];

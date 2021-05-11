@@ -5,11 +5,11 @@ import {HttpClient} from '@angular/common/http';
 @Injectable({
   providedIn: 'root'
 })
-export class JapanService extends ApiService {
+export class WorldBriefService extends ApiService {
   constructor(
     public http: HttpClient,
   ) {
     super(http);
-    this.url += 'timeseries?iso2=JP';
+    this.url += 'brief';
   }
 }

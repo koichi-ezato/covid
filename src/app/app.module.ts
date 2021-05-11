@@ -21,6 +21,8 @@ import localeJa from '@angular/common/locales/ja';
 import {MatNativeDateModule} from '@angular/material/core';
 import {HttpClientModule} from '@angular/common/http';
 import {NgxChartsModule} from '@swimlane/ngx-charts';
+import { WorldComponent } from './world/world.component';
+import {MatCardModule} from '@angular/material/card';
 
 registerLocaleData(localeJa);
 
@@ -31,7 +33,8 @@ registerLocaleData(localeJa);
     NavbarComponent,
     SidenavComponent,
     PageHeaderComponent,
-    FooterComponent
+    FooterComponent,
+    WorldComponent
   ],
   imports: [
     BrowserModule,
@@ -46,6 +49,7 @@ registerLocaleData(localeJa);
     HttpClientModule,
     ScrollingModule,
     NgxChartsModule,
+    MatCardModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
