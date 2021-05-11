@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1586080338085,
+  "timestamp": 1620713861375,
   "index": "https://koichi-ezato.github.io/covid/index.html",
   "assetGroups": [
     {
@@ -10,8 +10,8 @@
       "urls": [
         "https://koichi-ezato.github.io/covid/favicon.ico",
         "https://koichi-ezato.github.io/covid/index.html",
-        "https://koichi-ezato.github.io/covid/main-es2015.addd99033c82874ed701.js",
-        "https://koichi-ezato.github.io/covid/main-es5.addd99033c82874ed701.js",
+        "https://koichi-ezato.github.io/covid/main-es2015.9c9fc08693326ec93b6c.js",
+        "https://koichi-ezato.github.io/covid/main-es5.9c9fc08693326ec93b6c.js",
         "https://koichi-ezato.github.io/covid/manifest.webmanifest",
         "https://koichi-ezato.github.io/covid/polyfills-es2015.bbb42ff2e1c488ff52d5.js",
         "https://koichi-ezato.github.io/covid/polyfills-es5.0e4e1968447fab48e788.js",
@@ -49,9 +49,9 @@
     "https://koichi-ezato.github.io/covid/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "https://koichi-ezato.github.io/covid/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "https://koichi-ezato.github.io/covid/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://koichi-ezato.github.io/covid/index.html": "41aab3147730909c312521f47f197b19de658a2e",
-    "https://koichi-ezato.github.io/covid/main-es2015.addd99033c82874ed701.js": "a2751a54fea06b69996db6e57599a47971ec8966",
-    "https://koichi-ezato.github.io/covid/main-es5.addd99033c82874ed701.js": "64b63fa23594f4426f7926bc529197267cc96b66",
+    "https://koichi-ezato.github.io/covid/index.html": "e7ed78d30d1dae8383c14aa29eade8b11c288d70",
+    "https://koichi-ezato.github.io/covid/main-es2015.9c9fc08693326ec93b6c.js": "7d5e36ab87bbcfc5a7e1e0a6c45c267e5d129720",
+    "https://koichi-ezato.github.io/covid/main-es5.9c9fc08693326ec93b6c.js": "94db63293a1923f771006c130e90fc5f2f363337",
     "https://koichi-ezato.github.io/covid/manifest.webmanifest": "c738f87ed319b6cffa6634c45b1b53c723464bc1",
     "https://koichi-ezato.github.io/covid/polyfills-es2015.bbb42ff2e1c488ff52d5.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
     "https://koichi-ezato.github.io/covid/polyfills-es5.0e4e1968447fab48e788.js": "e51a1de4f016cd689dbdbef51043dec9518c4111",
